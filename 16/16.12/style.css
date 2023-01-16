@@ -1,0 +1,84 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body
+{
+	font-family: arial, tahoma, sans-serif;
+	font-size: 16px;
+}
+
+.back
+{
+	margin: 50px 50px;
+	overflow: hidden;
+	background-color: aquamarine;
+	max-width: 1200px;
+}
+
+.header
+{
+	margin: 40px 30px 30px;
+}
+
+.main 
+{
+	margin: 0 30px;
+}
+
+.main2
+{
+	margin: 40px 30px 200px;
+}
+
+.main2 > div
+{
+	margin-right: 20px;
+	float: left;
+}
+
+.tools1 > div
+{
+	margin-right: 20px;
+	float: left;
+}
+
+.tools2 > div
+{
+	margin-right: 20px;
+	float: left;
+}
+
+
+img
+{
+	width: 50px;
+	height: 50px;
+}
+
+span
+{
+	color: grey;
+}
+
+h2 
+{font-size: 30px}
+
+@media screen and (max-width: 800px)
+{
+	.tools1 > div
+{
+	margin-right: 0;
+	float: none;
+}
+
+.tools2 > div
+{
+	margin-right: 0;
+	float: none;
+}
+
+}

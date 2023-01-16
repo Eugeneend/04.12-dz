@@ -1,0 +1,128 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body
+{
+	font-family: arial, tahoma, sans-serif;
+	font-size: 18px;
+	background-color: #c9c9c9;
+}
+
+.back
+{
+	width: 100%;
+	max-width: 1200px;
+	margin: 50px auto;
+}
+
+.text1
+{
+	width: 60%;
+	float: left;
+	margin: 16px 16px 32px;
+}
+
+.text1 > h1
+{
+  margin-bottom: 24px;
+}
+
+.text2
+{
+	width: 60%;
+	float: left;
+	margin-left: 16px;
+}
+
+.photo
+{
+	float: right;
+	width: 35%;
+
+}
+
+.photo_items
+{
+	background-color: rgb(18, 18, 185);
+	color: #fff;
+	margin-top: 40px;
+	overflow: hidden;
+	border-radius: 10px;
+	text-align: right;
+}
+
+.photo_items > p
+{
+	padding: 10px;
+}
+
+img
+{
+	width: 100%;
+}
+
+@media screen and (max-width:800px)
+{
+
+.clear
+{clear: both;}
+	.text1
+		{
+			width: 90%;
+			float: none;
+			margin: 16px 16px 32px;
+		}
+	.text2
+		{
+			width: 90%;
+			float: none;
+			margin-left: 16px;
+		}
+
+	.photo
+		{
+			float: none;
+			width: 90%;
+			margin-bottom: 32px;
+		}
+ .photo > div
+	{
+		width: 40%;
+		float: left;
+		margin: 20px;
+	}
+}
+
+
+@media screen and (max-width:600px)
+{
+	.text1
+		{
+			width: 90%;
+			float: none;
+			margin: 16px 16px 32px;
+		}
+	.text2
+		{
+			width: 90%;
+			float: none;
+			margin-left: 16px;
+		}
+
+	.photo
+		{
+			float: none;
+			width: 90%;
+			margin-bottom: 32px;
+		}
+
+		.photo > div
+	{
+		float: none;
+		width: 100%;
+	}
+}
